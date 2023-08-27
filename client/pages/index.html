@@ -143,6 +143,79 @@
                             <span class="link">Lainnya</span>
                             <i class="fa-regular fa-ellipsis-vertical icon"></i>
                         </a>
+
+                        <div class="dropdown-container">
+                            <div class="dropdown-content">
+                                <div class="dropdown-list">
+                                    <div class="dropdown-item">
+                                        <div class="menu-button-list">
+                                            <div class="menu-button-item">
+                                                <a href="#" class="menu-button">
+                                                    <div class="image-container">
+                                                        <img src="../public/assets/images/static/navbar/television.png" alt="" class="menu-button-image">
+                                                    </div>
+                                                    <span class="link">Video</span>
+                                                </a>
+                                            </div>
+                                            <div class="menu-button-item">
+                                                <a href="#" class="menu-button">
+                                                    <div class="image-container">
+                                                        <img src="../public/assets/images/static/navbar/galery.png" alt="" class="menu-button-image">
+                                                    </div>
+                                                    <span class="link">Galeri Foto</span>
+                                                </a>
+                                            </div>
+                                            <div class="menu-button-item">
+                                                <a href="#" class="menu-button">
+                                                    <div class="image-container">
+                                                        <img src="../public/assets/images/static/navbar/map.png" alt="" class="menu-button-image">
+                                                    </div>
+                                                    <span class="link">Kabar Daerah</span>
+                                                </a>
+                                            </div>
+                                            <div class="menu-button-item">
+                                                <a href="#" class="menu-button">
+                                                    <div class="image-container">
+                                                        <img src="../public/assets/images/static/navbar/chart.png" alt="" class="menu-button-image">
+                                                    </div>
+                                                    <span class="link">Polling</span>
+                                                </a>
+                                            </div>
+                                            <div class="menu-button-item">
+                                                <a href="#" class="menu-button">
+                                                    <div class="image-container">
+                                                        <img src="../public/assets/images/static/navbar/sun.png" alt="" class="menu-button-image">
+                                                    </div>
+                                                    <span class="link">Zodiak</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a href="#" class="dropdown-link">Tentang Kami</a>
+                                        <a href="#" class="dropdown-link">Pedoman Media Siber</a>
+                                        <a href="#" class="dropdown-link">Ketentuan & Kebijakan Privasi</a>
+                                        <a href="#" class="dropdown-link">Panduan Komunitas</a>
+                                        <a href="#" class="dropdown-link">Bantuan</a>
+                                        <a href="#" class="dropdown-link">Iklan</a>
+                                        <a href="#" class="dropdown-link">Karir</a>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a href="#" class="dropdown-link">Facebook</a>
+                                        <a href="#" class="dropdown-link">Instagram</a>
+                                        <a href="#" class="dropdown-link">Twitter</a>
+                                        <a href="#" class="dropdown-link">Youtube</a>
+                                        <a href="#" class="dropdown-link">Tiktok</a>
+                                        <a href="#" class="dropdown-link">Line</a>
+                                        <a href="#" class="dropdown-link">Spotify</a>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <p class="copyright"><span id="current-year"></span> © PT Dynamo Media Network</p>
+                                        <p class="info">Version 1.38.0</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -188,27 +261,39 @@
                 <div class="sidebar-list">
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-regular fa-user icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-regular fa-user icon"></i>
+                            </div>
                             <span class="link">Masuk</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-regular fa-sparkles"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-regular fa-sparkles icon"></i>
+                            </div>
                             <span class="link">Berlangganan</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link dark-mode">
-                            <i class="fa-regular fa-moon icon"></i>
-                            <span class="link">Mode Gelap</span>
+                            <div class="sidebar-link-content">
+                                <div class="sidebar-icon">
+                                    <i class="fa-regular fa-moon icon"></i>
+                                </div>
+                                <span class="link">Mode Gelap</span>
+                            </div>
+                            <input type="checkbox" class="switch-button" id="switch" />
+                            <label for="switch" class="switch-label">Toggle</label>
                         </a>
                     </div>
                 </div>
                 <div class="sidebar-list">
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-regular fa-envelope icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-regular fa-envelope icon"></i>
+                            </div>
                             <span class="link">Informasi Kerja Sama</span>
                         </a>
                     </div>
@@ -216,43 +301,57 @@
                 <div class="sidebar-list">
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-regular fa-house icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-regular fa-house icon"></i>
+                            </div>
                             <span class="link">Beranda</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-regular fa-chart-line icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-regular fa-chart-line icon"></i>
+                            </div>
                             <span class="link">Trending</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-regular fa-location-dot icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-regular fa-location-dot icon"></i>
+                            </div>
                             <span class="link">Kabar Daerah</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-solid fa-play icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-solid fa-play icon"></i>
+                            </div>
                             <span class="link">Video</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-regular fa-camera icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-regular fa-camera icon"></i>
+                            </div>
                             <span class="link">Galeri Foto</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-regular fa-pencil icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-regular fa-pencil icon"></i>
+                            </div>
                             <span class="link">Opini & Cerita</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-regular fa-list icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-regular fa-list icon"></i>
+                            </div>
                             <span class="link">Peringkat Penulis</span>
                         </a>
                     </div>
@@ -297,64 +396,76 @@
                         <a href="#" class="sidebar-link">Cara menulis di Journaly</a>
                     </div>
                     <div class="sidebar-item">
-                        <a href="#" class="sidebar-link">
+                        <a href="#" class="sidebar-link dropdown" id="dropdown">
                             <span class="link">Tentang Journaly</span>
                             <i class="fa-regular fa-chevron-down icon"></i>
                         </a>
+
+                        <div class="dropdown-container" id="dropdown-container">
+                            <div class="dropdown-list">
+                                <div class="dropdown-item">
+                                    <a href="#" class="dropdown-link">Life at Journaly</a>
+                                </div>
+                                <div class="dropdown-item">
+                                    <a href="#" class="dropdown-link">Bantuan</a>
+                                </div>
+                                <div class="dropdown-item">
+                                    <a href="#" class="dropdown-link">Ketentuan dan Kebijakan Privasi</a>
+                                </div>
+                                <div class="dropdown-item">
+                                    <a href="#" class="dropdown-link">Panduan Komunitas Journaly</a>
+                                </div>
+                                <div class="dropdown-item">
+                                    <a href="#" class="dropdown-link">Panduan Komunitas Siber</a>
+                                </div>
+                                <div class="dropdown-item">
+                                    <a href="#" class="dropdown-link">Iklan</a>
+                                </div>
+                                <div class="dropdown-item">
+                                    <a href="#" class="dropdown-link">Karir</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="sidebar-list">
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-brands fa-facebook-f icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-brands fa-facebook-f icon"></i>
+                            </div>
                             <span class="link">Facebook</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-brands fa-instagram icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-brands fa-instagram icon"></i>
+                            </div>
                             <span class="link">Instagram</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-brands fa-twitter icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-brands fa-twitter icon"></i>
+                            </div>
                             <span class="link">Twitter</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-brands fa-youtube icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-brands fa-youtube icon"></i>
+                            </div>
                             <span class="link">Youtube</span>
                         </a>
                     </div>
                     <div class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-brands fa-line icon"></i>
-                            <span class="link">Line</span>
-                        </a>
-                    </div>
-                    <div class="sidebar-item">
-                        <a href="#" class="sidebar-link">
-                            <i class="fa-brands fa-line icon"></i>
-                            <span class="link">Line</span>
-                        </a>
-                    </div>
-                    <div class="sidebar-item">
-                        <a href="#" class="sidebar-link">
-                            <i class="fa-brands fa-line icon"></i>
-                            <span class="link">Line</span>
-                        </a>
-                    </div>
-                    <div class="sidebar-item">
-                        <a href="#" class="sidebar-link">
-                            <i class="fa-brands fa-line icon"></i>
-                            <span class="link">Line</span>
-                        </a>
-                    </div>
-                    <div class="sidebar-item">
-                        <a href="#" class="sidebar-link">
-                            <i class="fa-brands fa-line icon"></i>
+                            <div class="sidebar-icon">
+                                <i class="fa-brands fa-line icon"></i>
+                            </div>
                             <span class="link">Line</span>
                         </a>
                     </div>
